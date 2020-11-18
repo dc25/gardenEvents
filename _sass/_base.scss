@@ -17,7 +17,7 @@ body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
-    background-image: url("/assets/pexels-iconcom-1214405.jpg");
+    background-image: $background-image;
     background-size: cover;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -79,7 +79,6 @@ li {
 }
 
 
-
 /**
  * Headings
  */
@@ -87,7 +86,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
-
+h1.headercenter {
+    text-align:center;
+}
 
 /**
  * Links
